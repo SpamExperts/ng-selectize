@@ -49,7 +49,7 @@ export class NgSelectizeComponent implements OnInit, OnChanges, DoCheck, Control
 
 	@Output() onBlur: EventEmitter<void> = new EventEmitter<void>(false);
 
-	@ViewChild('selectizeInput') selectizeInput: any;
+	@ViewChild('selectizeInput', {static: true}) selectizeInput: any;
 
 	private selectize: any;
 
