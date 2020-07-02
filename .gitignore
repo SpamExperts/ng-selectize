@@ -43,4 +43,3 @@ demo/node_modules/
 /.tmp/
 
 yarn-error.log
-package-lock.json
